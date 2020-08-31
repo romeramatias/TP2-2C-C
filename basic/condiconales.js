@@ -8,7 +8,8 @@ console.log(0 === undefined);
 console.log(0 === false);
 console.log(0 === null);
 
-
+// Valores falsos para javascript ECS6+
+// false, undefined, null, 0, NaN, '' (cadena vacia)
 
 
 // if (condition) {
