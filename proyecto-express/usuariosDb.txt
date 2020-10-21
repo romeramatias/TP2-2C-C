@@ -1,10 +1,11 @@
 {
-    "username": "mati",
-    "email": "m@gmail.com",
-    "password": "pass"
+    "username": "romeramatias",
+    "email": "romeramatias0@gmail.com",
+    "password": "pass00"
 }
 
 {
-    "email": "m@gmail.com",
-    "password": "pass"
+    "email": "romeramatias0@gmail.com",
+    "password": "pass00"
 }
+

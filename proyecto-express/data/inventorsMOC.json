@@ -50,46 +50,11 @@
          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Bundesarchiv_Bild_183-R0116-504%2C_Max_Planck.jpg/220px-Bundesarchiv_Bild_183-R0116-504%2C_Max_Planck.jpg"
       },
       {
-         "_id": 10,
+         "_id": 8,
          "first": "Steve",
          "last": "Jobs",
-         "year": 1867,
+         "year": 1955,
          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Marie_Curie%2C_portrait%2C_1900.jpg/220px-Marie_Curie%2C_portrait%2C_1900.jpg"
-      },
-      {
-         "_id": 21,
-         "first": "Matias",
-         "last": "Romera",
-         "year": 1996,
-         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg"
-      },
-      {
-         "_id": 21,
-         "first": "Matias",
-         "last": "Romera",
-         "year": 1996,
-         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg"
-      },
-      {
-         "_id": 21,
-         "first": "Matias",
-         "last": "Romera",
-         "year": 1996,
-         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg"
-      },
-      {
-         "_id": 21,
-         "first": "Matias",
-         "last": "Romera",
-         "year": 1996,
-         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg"
-      },
-      {
-         "_id": 21,
-         "first": "Matias",
-         "last": "Romera",
-         "year": 1996,
-         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg"
       }
    ]
 }

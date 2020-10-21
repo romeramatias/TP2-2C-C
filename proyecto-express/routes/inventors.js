@@ -14,6 +14,7 @@ router.get("/:id", verificarToken, async (req, res) => {
    res.json(await dataInventors.getInventorMoc(req.params.id));
 });
 
+// Agregar un inventor
 router.post("/", verificarToken, async (req, res) => {
    const inventor = req.body;
    try {

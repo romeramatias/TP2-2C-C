@@ -28,7 +28,6 @@ async function getInventorMoc(id) {
 async function pushInventorMoc(inventor) {
    const connectionMongo = await connection.getConnection();
    const resultado = await connectionMongo.db("ejemplo_tp2").collection("inventors").insertOne(inventor);
-   console.log(resultado);
    return resultado;
 }
 
