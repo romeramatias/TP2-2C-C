@@ -4,18 +4,18 @@ const dataInventors = require("../data/Inventor");
 const verificarToken = require("./verificarToken");
 
 // GET Todos los inventores
-router.get("/", verificarToken, async (req, res) => {
+router.get("/", async (req, res) => {
    const data = await dataInventors.getAllInventorsMoc();
    res.json(data);
 });
 
 // GET Un inventor
-router.get("/:id", verificarToken, async (req, res) => {
+router.get("/:id", async (req, res) => {
    res.json(await dataInventors.getInventorMoc(req.params.id));
 });
 
 // Agregar un inventor
-router.post("/", verificarToken, async (req, res) => {
+router.post("/", async (req, res) => {
    const inventor = req.body;
    try {
       const result = await dataInventors.pushInventorMoc(inventor);
@@ -26,7 +26,7 @@ router.post("/", verificarToken, async (req, res) => {
 });
 
 // Modificacion de inventor
-router.put("/:id", verificarToken, async (req, res) => {
+router.put("/:id", async (req, res) => {
    const inventor = req.body;
    try {
       inventor._id = req.params.id;
@@ -38,7 +38,7 @@ router.put("/:id", verificarToken, async (req, res) => {
 });
 
 // Eliminacion de inventor
-router.delete("/:id", verificarToken, async (req, res) => {
+router.delete("/:id", async (req, res) => {
    try {
       const result = await dataInventors.deleteInventorMoc(req.params.id);
       res.send(result);
